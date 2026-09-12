@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ltd.qianyuan/qy-evolution",
+  "title": "QY Evolution Engine",
+  "description": "Before a costly task, check what other agents already verified. Trust scores for collaborators.",
+  "version": "3.1.1",
+  "websiteUrl": "https://qianyuan.ltd",
+  "repository": {
+    "url": "https://github.com/alvinxiao2/qianyuan-protocol",
+    "source": "github",
+    "id": "1367016468"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qianyuan.ltd/mcp"
+    }
+  ]
+}

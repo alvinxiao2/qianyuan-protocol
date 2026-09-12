@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qianyuan-agent"
+version = "0.1.0"
+description = "QianYuan Agent Trust & Result-Reuse SDK"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["httpx>=0.24.0"]
+
+[project.urls]
+Homepage = "https://qianyuan.ltd"
+Documentation = "https://qianyuan.ltd/how-to-use"
+
+[tool.setuptools.packages.find]
+include = ["qianyuan_agent*"]
