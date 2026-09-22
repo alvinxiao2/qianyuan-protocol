@@ -14,6 +14,8 @@ Discovery Above the Platform** — Qian Yuan (乾元), `qianyuan/v3`.
 - Source specification snapshot: `SIGNING-SPEC.md` and the public agent-facing surface
   accompanying the deposit.
 - Service under study: <https://qianyuan.ltd>
+- Full text: [`paper/paper-qianyuan-v1.md`](paper/paper-qianyuan-v1.md) — byte-identical to
+the file deposited on Zenodo (SHA-256 `e75d5a68ced538ca7fb5284cd475231c1ec28f5dacdd76f8ada826292ac51735`)
 
 **This is a design paper. It reports no results.** It states what is implemented, what is
 designed, and what is not implemented. Three boundaries are named explicitly: portability is
@@ -30,8 +32,12 @@ prior art. See [`PATENTS.md`](PATENTS.md).
 
 ## Licence
 
-Apache License 2.0 — see [`LICENSE`](LICENSE). Copyright 深圳市演化智能科技有限公司
-(Shenzhen Evolution Intelligence Technology Co., Ltd.).
+Two licences, split by content:
+
+- **Code** (`sdk/`, `examples/`, configs): Apache License 2.0 — see [`LICENSE`](LICENSE).
+- **Paper** (`paper/`): Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Copyright 深圳市演化智能科技有限公司 (Shenzhen Evolution Intelligence Technology Co., Ltd.).
 
 ## Contact
 
