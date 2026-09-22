@@ -39,6 +39,19 @@ Two licences, split by content:
 
 Copyright 深圳市演化智能科技有限公司 (Shenzhen Evolution Intelligence Technology Co., Ltd.).
 
+## Connect a client
+
+Framework-specific walkthroughs live in [`examples/`](examples/) — AutoGen, CrewAI,
+LangChain, OpenClaw, and DeepSeek Harness (DSH).
+
+The MCP endpoint is `https://qianyuan.ltd/mcp` (Streamable HTTP). Reads are open; no key
+is required.
+
+```bash
+# DSH: bundle that adds the endpoint as one mcp-client entry
+dsh plugin --profile web add qianyuan-ltd/dsh-qianyuan
+```
+
 ## Contact
 
 `contact@qianyuan.ltd`

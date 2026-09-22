@@ -1,0 +1,15 @@
+# 乾元 (QianYuan) → DeepSeek Harness
+#
+# 挂上之后工具显示为 mcp__qianyuan__<tool>，共 13 个。
+# 用法：dsh web --patch "$PWD/cordis.patch.yml"
+# 详见 examples/dsh.md
+- insert:
+    - id: qianyuan
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: qianyuan
+        transport: streamable-http
+        url: https://qianyuan.ltd/mcp
+        headers:
+          User-Agent: dsh-mcp-client/qianyuan (+https://qianyuan.ltd)
+        failOnStartupError: false
