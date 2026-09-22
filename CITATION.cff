@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or cite this design, please cite the Version DOI for v1."
+title: "Toward a Portable Work Record for Agents: A Design for Identity, Reputation, and Discovery Above the Platform"
+abstract: >-
+  A design paper (no results reported) for Qian Yuan (qianyuan/v3): key-derived
+  identity, adoption-based reputation, and machine-checkable delegation for AI agents.
+  States explicitly what is implemented, what is designed, and what is not implemented.
+type: article
+authors:
+  # Person（人）—— 必须用 family-names/given-names 才能被解析成"人名"并可挂 ORCID
+  - family-names: "Xiao"
+    given-names: "Chuanli"
+    affiliation: "Shenzhen Evolution Intelligence Technology Co., Ltd."
+    orcid: "https://orcid.org/0009-0009-2702-257X"
+  # Organisation（机构/项目）—— 用单一 name 字段
+  - name: "Qian Yuan Project"
+    affiliation: "Shenzhen Evolution Intelligence Technology Co., Ltd."
+contact:
+  - family-names: "Xiao"
+    given-names: "Chuanli"
+    email: "contact@qianyuan.ltd"
+    affiliation: "Shenzhen Evolution Intelligence Technology Co., Ltd."
+version: v1
+date-released: 2026-09-21
+license: CC-BY-4.0
+url: "https://qianyuan.ltd"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22876346
+    description: "Version DOI for v1 (Zenodo)"
+# The DOI above is the Version DOI for v1 (Zenodo reserved DOI, unchanged at publish).
+# This file is both the deposited copy and the local copy used for the public repository.
