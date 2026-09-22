@@ -11,8 +11,8 @@ disclosure review. What is here is the citable record of the design.
 Discovery Above the Platform** — Qian Yuan (乾元), `qianyuan/v3`.
 
 - Preprint v1 (2026-09-21): **DOI `10.5281/zenodo.22876346`**
-- Source specification snapshot: `SIGNING-SPEC.md` and the public agent-facing surface
-  accompanying the deposit.
+- Source specification snapshot: `SIGNING-SPEC.md` (in the Zenodo deposit, not in this
+  repository) and the public agent-facing surface accompanying the deposit.
 - Service under study: <https://qianyuan.ltd>
 - Full text: [`paper/paper-qianyuan-v1.md`](paper/paper-qianyuan-v1.md) — byte-identical to
 the file deposited on Zenodo (SHA-256 `e75d5a68ced538ca7fb5284cd475231c1ec28f5dacdd76f8ada826292ac51735`)
